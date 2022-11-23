@@ -1,0 +1,224 @@
+body{
+    background-color: #f5fbff;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  @media (min-width:768px){
+    #icon{
+        display: none;
+    }
+  } 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.full-menu{
+     justify-content: space-evenly;
+     margin-bottom: 52px;
+     margin-top: 20px;
+}
+.full-menu a{
+    text-decoration: none;
+    color: black;
+}
+.full-menu a:hover{
+    text-decoration: underline;
+}
+@media (max-width:576px),(max-width:768px){
+    .full-menu{
+       display: none;
+    }
+}
+.menu{
+    width: 100%;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover{
+     background-color: #f5fbff;
+}
+.menu li{
+    border-bottom: 1px dashed rgb(185, 185, 185);
+    margin: 0;
+    list-style: none;
+}
+.menu li:last-child{
+    border: none;
+}
+.big-name{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #071c2c;
+}
+.nigger{
+    margin-bottom: 70px;
+}
+.about{
+   background-color: #071c2c; 
+   text-decoration: none;
+   color: #fff;
+   font-size: 19px;
+   padding: 10px 26px;
+   border-radius: 24px;
+   font-weight: lighter;
+}
+@media (max-width:768px){
+    .about{
+        border-radius: 2px;
+    }
+}
+.about:hover{
+    color: #fff;
+    background-color:#0d324f ;
+}
+.coaching{
+    margin-right: 10px;
+}
+#coaching{
+    font-size: 44px;
+}
+.coaching,.goals p{
+    margin-top: 80px;
+}
+.goals{
+    width: 519px;
+}
+@media (max-width:576px){
+     
+    #coaching{
+        font-size: 37px;
+        text-align: center;
+    }
+    .coaching p{
+        text-align: center;
+    }
+    .goals{
+        width: 467px;
+        text-align: center;
+    }
+    .growth{
+        width: 480px;
+        text-align: center;
+    }
+    .reflection{
+        width: 486px;
+        text-align: center;
+    }
+}
+.Testimonials{
+    font-size: 20px;
+}
+.Testimonials p{
+    margin-top: 60px;
+}
+#quote{
+   margin-top: 30px;
+   font-weight: bold;
+}
+.left-text{
+    width: 490px;
+}
+.right-text{
+    margin-top: 175px;
+}
+#quote2{
+    margin-top: 57px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+@media (max-width: 576px){
+    .Testimonials,.left-text{
+        text-align: center;
+        width: 290px;
+        margin: auto;
+    }
+    .right-text,#quote2{
+        text-align: center;
+        margin: auto;
+        width: 276px;
+    }
+}
+.letstalk{
+    background-color: #101126;
+    color: #fff;
+}
+.wrapper h2{
+    font-size: 44px;
+}
+.wrapper{
+    text-align: center;
+    padding: 100px;
+    width: 1182px;
+}
+.button-click{
+    margin-top: 60px;
+    border-radius: 48px;
+    padding: 10px 24px;
+}
+.button-click:hover{
+    background-color: #1b1d3f;
+}
+@media(min-width:576px){
+    .white-text-philosophy{
+        font-size: 17px;
+    }
+}
+@media (max-width:768px){
+    .wrapper{
+        width:768px;
+    }
+    .button-click{
+        border-radius:1px ;
+    }
+}
+
+.footer-part{
+    background-color: #f5fbff;
+}
+.footer-part h2{
+    margin-top: 76px;
+}
+#icons{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 60px;
+}
+@media(min-width:768px){
+    #icons{
+        float: right;
+    }
+}
